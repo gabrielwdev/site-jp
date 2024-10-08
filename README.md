@@ -1,1 +1,1 @@
-https://gabrielwdev.github.io/site-jp/
+site: https://gabrielwdev.github.io/site-jp/
