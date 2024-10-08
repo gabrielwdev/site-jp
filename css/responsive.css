@@ -1,6 +1,7 @@
 @media(max-width: 2000px) and (min-width: 1400px){
     .container {
         max-width: 1400px;
+
     }
 }
 @media(max-width: 1700px){
@@ -214,15 +215,8 @@
     .benefits-section .heading h3{
         width: 56%;
     }
-    .bmi{
-        margin-top: 99px;
-    }
     .tabs {
         display: flex;
-    }
-
-    img.background-calculator {
-        padding-top: 144px;
     }
     .Post-2.Post-1 h6{
         padding-left: 5px;
@@ -475,10 +469,6 @@
     ul.funfact{
         padding: 30px;
     }
-    img.background-calculator {
-        padding-top: 100px;
-    }
-
     .blockquote:before{
         top: 20%;
     }
@@ -700,15 +690,10 @@
     .about-section.gap:before{
         display: none;
     }
-    .bmi {
-        margin-top: 90px;
-    }
     .tabs {
         flex-wrap: wrap;
     }
-    img.background-calculator {
-        padding-top: 90px;
-    }
+
 
     .testimonials-section .heading p {
         width: 70%;
@@ -976,6 +961,8 @@
     }
     .requirements-section .heading h3{
         width: 100%;
+        height: auto;
+        overflow: hidden;
     }
     .other-workouts-Sections .heading p {
         width: 100%;
@@ -1563,6 +1550,9 @@
     }
 }
 @media(max-width: 768px){
+    .stn-price{
+        padding: 0;
+    }
     .benefits-section .heading h3:after {
         left: 34%;
     }
@@ -1973,6 +1963,19 @@
     }
 }
 @media(max-width: 576px){
+    .photo-section.about i, .play {
+        left: 40%;
+        top: 50%;
+    }
+
+    /* .stn-video-program {
+        overflow: hidden !important;
+    } */
+
+    .stn-price {
+        overflow: hidden !important;
+    }
+
     .about-info p {
         padding: 25px;
     }
@@ -2503,6 +2506,10 @@
     }
 }
 @media(max-width: 375px){
+    .photo-section.about i, .play {
+        left: 35%;
+    }
+
     .img-girl {
         left: 5%;
     }

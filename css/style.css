@@ -630,6 +630,7 @@ img.Photo-4 {
 }
 .calculator-Photo {
     position: relative;
+    height: 850px;
 }
 .calculator-Photo img {
     width: 100%;
@@ -639,13 +640,18 @@ img.background-calculator {
     position: absolute;
     width: 100%;
     z-index: 0;
-    top: 13.2%;
-    height: 939px;
+    height: 100%;
 }
+
+.stn-price {
+    padding: 5% 0;
+    margin-bottom: 5rem;
+}
+
 .bmi {
     background-color: white;
-    margin-top: 116px;
     padding: 40px;
+    height: 850px;
     z-index: -1111;
 }
 /*tab*/
@@ -1573,7 +1579,7 @@ img.Photo-about-1 {
     position: absolute;
     top: 40%;
     font-size: 20px;
-    display: flex;
+    display: flex !important;
     align-items: center;
     justify-content: center;
     color: white;
@@ -3391,7 +3397,6 @@ form.about-form.callto {
     padding-top: 40px;
     margin-top: 15px;
 }
-
 
 .content1 {
   max-width: 650px;
